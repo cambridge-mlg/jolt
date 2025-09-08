@@ -38,7 +38,7 @@ def prepare_data(args):
 
         if args.csv_split_option == 'test_fraction':
             data = csv_parser.get_data_test_fraction(
-                test_factor=args.test_fraction,
+                test_fraction=args.test_fraction,
                 train_size_limit=args.train_size_limit,
                 test_size_limit=args.test_size_limit
             )
